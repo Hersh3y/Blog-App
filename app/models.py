@@ -15,7 +15,7 @@ class User(UserMixin, db.Model):
 
     posts: so.WriteOnlyMapped['Post'] = so.relationship(back_populates='author')
 
-    about_me: so.Mapped[str] = so.mapped_column(sa.String(140))
+    about_me: so.Mapped[str] = so.mapped_column(sa.String(140), nullable=True)
     last_seen: so.Mapped[Optional[datetime]] = so.mapped_column(
         default=lambda: datetime.now(timezone.utc))
 

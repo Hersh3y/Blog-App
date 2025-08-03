@@ -50,3 +50,6 @@ Traceback (most recent call last):
     ) from exc
 Exception: Install 'email_validator' for email validation support.
 2025-08-03 03:17:53,544 INFO: Microblog startup [in C:\Users\night\OneDrive\Desktop\Microblog\app\__init__.py:43]
+2025-08-03 03:42:18,973 INFO: Microblog startup [in C:\Users\night\OneDrive\Desktop\Microblog\app\__init__.py:43]
+2025-08-03 03:59:14,197 INFO: Microblog startup [in C:\Users\night\OneDrive\Desktop\Microblog\app\__init__.py:43]
+2025-08-03 04:00:45,098 INFO: Microblog startup [in C:\Users\night\OneDrive\Desktop\Microblog\app\__init__.py:43]

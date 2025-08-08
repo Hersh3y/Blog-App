@@ -1,5 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
 .venv/
+env/
+venv/
+
+# Database
 app.db
+*.sqlite3
+
+# Flask migrations
+migrations/
+
+# Logs
 logs/
 *.log
-__pycache__/
+
+# Environment files
+*.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
